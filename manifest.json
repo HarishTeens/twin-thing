@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Twin Thing",
+    "author": "Praish",
+    "version": "1.0",
+    "description": "cool web stuffs",
+    "permissions": [
+      "tabs",
+      "bookmarks",
+      "history"
+    ],
+    "browser_action": {
+      "default_icon": {
+        "20": "images/icon.png",
+        "40": "images/icon.png"
+      },
+      "default_title": "Twin Thing",
+      "default_popup": "src/index.html"
+    }
+  }
